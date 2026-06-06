@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Output (gráficas y archivos temporales — no son necesarios para correr)
+Output/*.png
+Output/dual_momentum_equity.csv
+Output/enhanced_equity.csv
+Output/enhanced_results.png
+Output/factor_attribution.csv
+Output/factor_model.png
+Output/alpha_strategy*.png
+Output/atlas_results.png
+Output/drawdown.png
+Output/equity_curve_vs_spy.png
+Output/estrategia_v2_comparacion.png
+Output/dual_momentum_results.png
+Output/final_strategy_summary.txt
+Output/alpha_strategy_weights.csv
+
+# Scripts experimentales (no necesarios para replicar)
+alpha_hunter.py
+enhanced_backtest.py
+factor_model.py
+master_v2_lowvol_momentum.py
+portfolio_construction.py
+portfolio_weights_base.csv
+portfolio_weights_enhanced.csv
+app.py
+backtest_kaxanuk.py
+__main__.py
+main.py
+setup_config.py
+texto.md
+.claude/
