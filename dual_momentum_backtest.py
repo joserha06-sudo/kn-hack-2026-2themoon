@@ -27,7 +27,7 @@ from pathlib import Path
 # CONFIGURACIÓN
 # ─────────────────────────────────────────────────────────────
 OUTPUT_DIR   = Path("Output")
-START_DATE   = "2007-01-01"
+START_DATE   = "2017-01-01"
 END_DATE     = "2025-12-31"
 INITIAL_CAP  = 100.0
 TXN_COST_BPS = 10
